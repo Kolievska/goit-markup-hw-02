@@ -1,0 +1,98 @@
+:root {
+    --primary-color: #757575;
+    --title-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bgc: #ffffff;
+    --button-color: #F5F4FA;
+}
+
+body {
+    font-family: roboto;
+    color: var(--primary-color);
+    background-color: var(--primary-bgc);
+}
+
+.list {
+    list-style: none;
+}
+.site-nav .link {
+    color: var(--title-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.contact {
+    color: var(--primary-color);
+}
+
+.contact:hover {
+    color: var(--accent-color);
+}
+
+.contact:focus {
+    color: var(--accent-color);
+}
+
+h2, h3 {
+    color: var(--title-color);
+}
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    font-style: normal;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.hero-button {
+    background-color: var(--accent-color);
+    color: #ffffff;
+} 
+
+.portfolio-nav button {
+    background-color: var(--button-color);
+    color: var(--title-color)
+}
+
+.portfolio-nav button:hover,
+.portfolio-nav button:focus {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+footer {
+    background-color: #2F303A;
+}
+
+.address-map {
+    font-style: normal;
+    color: #ffffff;
+}
+
+.address-tel,
+.address-mail {
+    font-style: normal;
+    color: rgba(255, 255, 255, 60%);
+}
+
+.address-map, .address-tel,
+.address-mail:hover {
+    font-style: normal;
+    color: var(--accent-color);
+}
+
+.address-map, .address-tel,
+.address-mail:focus {
+    font-style: normal;
+    color: var(--accent-color);
+}
