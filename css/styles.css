@@ -12,7 +12,8 @@ body {
   font-family: roboto, sans-serif;
 }
 
-.logo {
+.logo-header,
+.logo-footer {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -20,8 +21,19 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 
-  color: #2196f3;
   text-decoration: none;
+}
+
+.logo-header {
+  color: #000;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.accent {
+  color: var(--accent-color);
 }
 
 .list {
