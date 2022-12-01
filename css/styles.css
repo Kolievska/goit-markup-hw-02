@@ -159,16 +159,16 @@ h3 {
 }
 
 .portfolio h2 {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .portfolio p {
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
 
 /* Footer */
@@ -177,34 +177,25 @@ footer {
   background-color: #2f303a;
 }
 
-.address-map {
+.address a {
   font-style: normal;
-  color: #ffffff;
-  font-weight: 400;
+  text-decoration: none;
+  font-weight: 400
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 
+.address a:hover,
+.address a:focus {
+  color: var(--accent-color);
+}
+
+.address-map {
+  color: #ffffff;
+
+}
 .address-tel,
 .address-mail {
-  font-style: normal;
   color: rgba(255, 255, 255, 60%);
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
-
-.address-map,
-.address-tel,
-.address-mail:hover {
-  color: var(--accent-color);
-}
-
-.address-map,
-.address-tel,
-.address-mail:focus {
-  color: var(--accent-color);
 }
