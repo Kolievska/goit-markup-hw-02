@@ -42,7 +42,7 @@ body {
 
 /* Header */
 
-.site-nav a {
+.site-nav .link {
   color: var(--title-color);
   text-decoration: none;
   font-style: normal;
@@ -52,8 +52,12 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -108,7 +112,7 @@ h3 {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--primary-color);
+  background-color: #188CE8;
 }
 
 .features h3 {
@@ -125,6 +129,10 @@ h3 {
   letter-spacing: 0.03em;
 }
 
+.team {
+  background-color: #F5F4FA;
+}
+
 .title {
   font-size: 36px;
   line-height: 1.7;
@@ -132,14 +140,14 @@ h3 {
   letter-spacing: 0.03em;
 }
 
-.team h3 {
+.team-list h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
-.team p {
+.team-list p {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
